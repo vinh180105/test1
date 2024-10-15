@@ -1,0 +1,18 @@
+-- Tạo database "tintuc"
+CREATE DATABASE tintuc;
+
+-- Sử dụng database "tintuc"
+USE tintuc;
+
+-- Tạo bảng "users"
+CREATE TABLE users (
+    idUser INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(255) NOT NULL UNIQUE,
+    Password VARCHAR(255) NOT NULL,
+    HoTen VARCHAR(255)
+);
+
+-- Thêm một vài user mẫu (tùy chọn)
+INSERT INTO users (Username, Password, HoTen) VALUES
+('user1', MD5('123456'), 'Nguyễn Văn A'),
+('user2', MD5('password'), 'Trần Thị B');

@@ -1,0 +1,27 @@
+#formlogin {
+  width: 400px;
+  background: #ccc;
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+}
+#formlogin label {
+  width: 120px;
+  float: left;
+  margin: 8px 0;
+}
+#formlogin .txt {
+  width: 180px;
+}
+#formlogin p {
+  margin-left: 10px;
+}
+#formlogin input[type="submit"] {
+  background: #aaa;
+}
+#formlogin input[type="reset"] {
+  background: #aaa;
+}
+h1 {
+  text-align: center;
+}
